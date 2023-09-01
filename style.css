@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+.class_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fafafaea;
+    padding: 15px;
+}
+
+li{
+    display:inline;
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #e100ff;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px 25px;
+    display: inline-block;
+    transition:0.5s
+
+}
+
+a:hover{
+    background-color:rgb(197, 255, 216);
+    text-decoration:underline;
+}
+.class_02{
+    width:800px;
+    padding: 30px;
+    
+
+}
